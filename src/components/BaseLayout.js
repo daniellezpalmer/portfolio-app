@@ -9,8 +9,8 @@ export default class BaseLayout extends Component {
     return(
       <div>
           <NavLink to="/">HOME</NavLink>
-          <NavLink to="/About">ABOUT</NavLink>
-          <NavLink to="/Portfolio">PORTFOLIO</NavLink>
+          <NavLink to="/about">ABOUT</NavLink>
+          <NavLink to="/portfolio">PORTFOLIO</NavLink>
           <div>I am Danielle Palmer</div>
           {this.props.children}
           <footer>Sweet little foota</footer>
